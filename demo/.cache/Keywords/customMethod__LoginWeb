@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E96CAE4329AB71A004B9893AEE937F37",
+  "keywordClasses": [
+    {
+      "name": "customMethod.LoginWeb",
+      "keywordMethods": [
+        {
+          "name": "loginWeb",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

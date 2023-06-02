@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 113.0.0.0,,,2023-05-26 17:08:22,2023-05-26 17:09:36,1m - 14.085s,FAILED
+,,,,,,,
+Test Cases/Handle/Alert,Chrome 113.0.0.0,,,2023-05-26 17:08:23,2023-05-26 17:08:47,24.588s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 17:08:23,2023-05-26 17:08:26,2.980s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 113.0.0.0,,,2023-05-26 17:08:26,2023-05-26 17:08:32,5.958s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Alert/span_Click Button to see alert""))",Chrome 113.0.0.0,,,2023-05-26 17:08:32,2023-05-26 17:08:34,1.586s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Alert/div_Click Button to see alert""))",Chrome 113.0.0.0,,,2023-05-26 17:08:34,2023-05-26 17:08:34,0.430s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Alert/button_Click me 3""))",Chrome 113.0.0.0,,,2023-05-26 17:08:34,2023-05-26 17:08:34,0.431s,PASSED
+acceptAlert(),Chrome 113.0.0.0,,,2023-05-26 17:08:34,2023-05-26 17:08:34,0.058s,PASSED
+"verifyElementNotPresent(findTestObject(""Object handle/Alert/span_Confirm Result""), 10)",Chrome 113.0.0.0,,,2023-05-26 17:08:34,2023-05-26 17:08:35,0.679s,PASSED
+"verifyElementPresent(findTestObject(""Object handle/Alert/span_Confirm Result""), 10)",Chrome 113.0.0.0,,,2023-05-26 17:08:35,2023-05-26 17:08:47,11.949s,FAILED
+,,,,,,,
+Test Cases/Handle/Alert2,Chrome 113.0.0.0,,,2023-05-26 17:08:47,2023-05-26 17:08:59,11.998s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 17:08:48,2023-05-26 17:08:50,1.963s,PASSED
+"navigateToUrl(""https://qavbox.github.io/demo/alerts/"")",Chrome 113.0.0.0,,,2023-05-26 17:08:50,2023-05-26 17:08:50,0.704s,PASSED
+"verifyElementText(findTestObject(""Object handle/Page_Alerts/p_You pressed Cancel""), """")",Chrome 113.0.0.0,,,2023-05-26 17:08:50,2023-05-26 17:08:51,0.499s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Page_Alerts/input_Different Types of ALERTS_confirm""))",Chrome 113.0.0.0,,,2023-05-26 17:08:51,2023-05-26 17:08:51,0.376s,PASSED
+acceptAlert(),Chrome 113.0.0.0,,,2023-05-26 17:08:51,2023-05-26 17:08:51,0.026s,PASSED
+"verifyElementText(findTestObject(""Object handle/Page_Alerts/p_You pressed Cancel""), ""You pressed OK!"")",Chrome 113.0.0.0,,,2023-05-26 17:08:51,2023-05-26 17:08:52,0.449s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-26 17:08:52,2023-05-26 17:08:54,2.044s,PASSED
+"click(findTestObject(""Object handle/Page_Alerts/input_Different Types of ALERTS_confirm""))",Chrome 113.0.0.0,,,2023-05-26 17:08:54,2023-05-26 17:08:54,0.366s,PASSED
+dismissAlert(),Chrome 113.0.0.0,,,2023-05-26 17:08:54,2023-05-26 17:08:54,0.040s,PASSED
+"verifyElementText(findTestObject(""Object handle/Page_Alerts/p_You pressed Cancel""), ""You pressed Cancel!"")",Chrome 113.0.0.0,,,2023-05-26 17:08:54,2023-05-26 17:08:54,0.464s,PASSED
+delay(1),Chrome 113.0.0.0,,,2023-05-26 17:08:54,2023-05-26 17:08:55,1.006s,PASSED
+"click(findTestObject(""Object handle/Page_Alerts/button_PromptMe""))",Chrome 113.0.0.0,,,2023-05-26 17:08:55,2023-05-26 17:08:56,0.393s,PASSED
+delay(1),Chrome 113.0.0.0,,,2023-05-26 17:08:56,2023-05-26 17:08:57,1.016s,PASSED
+"setAlertText(""Demo"")",Chrome 113.0.0.0,,,2023-05-26 17:08:57,2023-05-26 17:08:57,0.033s,PASSED
+delay(1),Chrome 113.0.0.0,,,2023-05-26 17:08:57,2023-05-26 17:08:58,1.016s,PASSED
+acceptAlert(),Chrome 113.0.0.0,,,2023-05-26 17:08:58,2023-05-26 17:08:58,0.019s,PASSED
+"verifyElementText(findTestObject(""Object handle/Page_Alerts/p_You pressed Cancel""), ""Hello Demo! How are you today?"")",Chrome 113.0.0.0,,,2023-05-26 17:08:58,2023-05-26 17:08:58,0.479s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 17:08:58,2023-05-26 17:08:59,0.673s,PASSED
+,,,,,,,
+Test Cases/Handle/Checkbox,Chrome 113.0.0.0,,,2023-05-26 17:08:59,2023-05-26 17:09:04,5.248s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 17:08:59,2023-05-26 17:09:01,1.292s,PASSED
+"navigateToUrl(""http://demo.seleniumeasy.com/basic-checkbox-demo.html"")",Chrome 113.0.0.0,,,2023-05-26 17:09:01,2023-05-26 17:09:02,1.284s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Checkbox/label_Click on this check box""))",Chrome 113.0.0.0,,,2023-05-26 17:09:02,2023-05-26 17:09:03,0.581s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Checkbox/label_Option 1""))",Chrome 113.0.0.0,,,2023-05-26 17:09:03,2023-05-26 17:09:03,0.361s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Checkbox/input_Option 4_check1""))",Chrome 113.0.0.0,,,2023-05-26 17:09:03,2023-05-26 17:09:03,0.367s,PASSED
+"verifyElementChecked(findTestObject(""Object handle/Checkbox/input_checked_checkbox""), 10)",Chrome 113.0.0.0,,,2023-05-26 17:09:03,2023-05-26 17:09:04,0.378s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 17:09:04,2023-05-26 17:09:04,0.664s,PASSED
+,,,,,,,
+Test Cases/Handle/Dropdown,Chrome 113.0.0.0,,,2023-05-26 17:09:04,2023-05-26 17:09:23,18.554s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 17:09:05,2023-05-26 17:09:06,1.257s,PASSED
+"navigateToUrl(""http://demo.seleniumeasy.com/basic-select-dropdown-demo.html"")",Chrome 113.0.0.0,,,2023-05-26 17:09:06,2023-05-26 17:09:09,3.380s,PASSED
+"verifyElementText(findTestObject(""Object handle/Dropdown/h3_This would be your first example on sele_cbdf22""), ""This would be your first example on select dropd down list to with Selenium."")",Chrome 113.0.0.0,,,2023-05-26 17:09:09,2023-05-26 17:09:10,0.789s,PASSED
+"selectOptionByIndex(findTestObject(""Object handle/Dropdown/select_Please select Sunday  Monday  Tuesda_3c4b3e""), 3)",Chrome 113.0.0.0,,,2023-05-26 17:09:10,2023-05-26 17:09:11,1.010s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-26 17:09:11,2023-05-26 17:09:13,2.013s,PASSED
+"selectOptionByValue(findTestObject(""Object handle/Dropdown/select_Please select Sunday  Monday  Tuesda_3c4b3e""), ""Wednesday"", true)",Chrome 113.0.0.0,,,2023-05-26 17:09:13,2023-05-26 17:09:14,1.183s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-26 17:09:14,2023-05-26 17:09:16,2.010s,PASSED
+"selectOptionByLabel(findTestObject(""Object handle/Dropdown/select_Please select Sunday  Monday  Tuesda_3c4b3e""), ""Friday"", true)",Chrome 113.0.0.0,,,2023-05-26 17:09:16,2023-05-26 17:09:18,1.140s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-26 17:09:18,2023-05-26 17:09:20,2.013s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Object handle/Dropdown/select_Please select Sunday  Monday  Tuesda_3c4b3e""), ""Sunday"", false, 10)",Chrome 113.0.0.0,,,2023-05-26 17:09:20,2023-05-26 17:09:20,0.666s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-26 17:09:20,2023-05-26 17:09:22,2.018s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 17:09:22,2023-05-26 17:09:23,0.678s,PASSED
+,,,,,,,
+Test Cases/Handle/IFrame,Chrome 113.0.0.0,,,2023-05-26 17:09:23,2023-05-26 17:09:28,4.911s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 17:09:23,2023-05-26 17:09:25,1.317s,PASSED
+"navigateToUrl(""https://qavbox.github.io/demo/iframes/"")",Chrome 113.0.0.0,,,2023-05-26 17:09:25,2023-05-26 17:09:25,0.701s,PASSED
+"setText(findTestObject(""Object Repository/Object handle/Page_iframes/input_Blogger_input1""), ""Automation"")",Chrome 113.0.0.0,,,2023-05-26 17:09:25,2023-05-26 17:09:26,0.843s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Page_iframes/div_PavilionBloggerEnter your nameFrame1Fra_cf0f48""))",Chrome 113.0.0.0,,,2023-05-26 17:09:26,2023-05-26 17:09:27,0.390s,PASSED
+"switchToWindowTitle(""iframes"")",Chrome 113.0.0.0,,,2023-05-26 17:09:27,2023-05-26 17:09:27,0.024s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Page_iframes/a_Category1""))",Chrome 113.0.0.0,,,2023-05-26 17:09:27,2023-05-26 17:09:27,0.612s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 17:09:27,2023-05-26 17:09:28,0.681s,PASSED
+,,,,,,,
+Test Cases/Handle/Radio_Button,Chrome 113.0.0.0,,,2023-05-26 17:09:28,2023-05-26 17:09:36,7.998s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 17:09:28,2023-05-26 17:09:29,1.321s,PASSED
+"navigateToUrl(""http://demo.seleniumeasy.com/basic-radiobutton-demo.html"")",Chrome 113.0.0.0,,,2023-05-26 17:09:29,2023-05-26 17:09:30,0.750s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Radio buttons/input_Male_optradio""))",Chrome 113.0.0.0,,,2023-05-26 17:09:30,2023-05-26 17:09:31,0.481s,PASSED
+"verifyElementChecked(findTestObject(""Object handle/Radio buttons/input_Male_optradio""), 0)",Chrome 113.0.0.0,,,2023-05-26 17:09:31,2023-05-26 17:09:31,0.334s,PASSED
+"verifyElementNotChecked(findTestObject(""Object handle/Radio buttons/input_Radio Female""), 5)",Chrome 113.0.0.0,,,2023-05-26 17:09:31,2023-05-26 17:09:31,0.326s,PASSED
+"click(findTestObject(""Object Repository/Object handle/Radio buttons/button_Get Checked value""))",Chrome 113.0.0.0,,,2023-05-26 17:09:31,2023-05-26 17:09:32,0.378s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Object handle/Radio buttons/p_Radio button Female is checked""), ""Radio button 'Male' is checked"")",Chrome 113.0.0.0,,,2023-05-26 17:09:32,2023-05-26 17:09:32,0.458s,PASSED
+"scrollToElement(findTestObject(""Object handle/Radio buttons/button_getvalue""), 10)",Chrome 113.0.0.0,,,2023-05-26 17:09:32,2023-05-26 17:09:33,0.353s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-26 17:09:33,2023-05-26 17:09:35,2.018s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 17:09:35,2023-05-26 17:09:36,1.289s,PASSED
+,,,,,,,
+Test Cases/Handle/Verify,Chrome 113.0.0.0,,,2023-05-26 17:09:36,2023-05-26 17:09:36,0.393s,PASSED
+return null,Chrome 113.0.0.0,,,2023-05-26 17:09:36,2023-05-26 17:09:36,0.001s,PASSED

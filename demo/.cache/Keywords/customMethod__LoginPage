@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "D234E8841D08DFD71F9D98C31A803719",
+  "keywordClasses": [
+    {
+      "name": "customMethod.LoginPage",
+      "keywordMethods": [
+        {
+          "name": "loginPage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "loginPage1",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

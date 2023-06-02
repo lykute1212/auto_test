@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Radio button Female is checked</name>
+   <tag></tag>
+   <elementGuidId>8cbf5eee-9207-4442-ba85-165badd91016</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='easycont']/div/div[2]/div/div[2]/p[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.radiobutton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f328f4e6-14c9-491f-a4b2-78693028428b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>radiobutton</value>
+      <webElementGuid>c08bc003-5700-40d9-9924-4bf16ab32649</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Radio button 'Female' is checked</value>
+      <webElementGuid>75c9c9f3-1392-44ee-945c-4c76ae5d4c24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;easycont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 text-left&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/p[@class=&quot;radiobutton&quot;]</value>
+      <webElementGuid>5f44dd0d-c9a1-4bd6-a68d-f5e607a424ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='easycont']/div/div[2]/div/div[2]/p[3]</value>
+      <webElementGuid>8054f9c7-4f3a-4558-9b7e-323edabee70e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Checked value'])[1]/following::p[1]</value>
+      <webElementGuid>a58e995f-f56e-4c88-a0c3-80da35c6c5a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/following::p[2]</value>
+      <webElementGuid>75cdf5ce-6847-4734-b7d8-ad215d336228</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group Radio Buttons Demo'])[1]/preceding::p[1]</value>
+      <webElementGuid>a86b4e53-7f99-4aae-8adf-05ae6be308c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sex :'])[1]/preceding::p[2]</value>
+      <webElementGuid>ef509324-cbb2-4278-b29c-9d14e3e60668</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[3]</value>
+      <webElementGuid>1fd7ccdb-03a4-4769-b997-3372d28b645c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;Radio button &quot; , &quot;'&quot; , &quot;Female&quot; , &quot;'&quot; , &quot; is checked&quot;) or . = concat(&quot;Radio button &quot; , &quot;'&quot; , &quot;Female&quot; , &quot;'&quot; , &quot; is checked&quot;))]</value>
+      <webElementGuid>53ec3af4-ac51-452c-aa68-1d3261601a37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

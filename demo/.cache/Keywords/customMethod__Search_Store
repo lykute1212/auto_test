@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E2B25F49A02CE88A596C5573EE3F1380",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Search_Store",
+      "keywordMethods": [
+        {
+          "name": "searchProduct",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

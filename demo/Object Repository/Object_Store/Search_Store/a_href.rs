@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_href</name>
+   <tag></tag>
+   <elementGuidId>5d89b91f-87fb-4f05-8057-c6a6ba45033c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.header__history--link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/header/div/div[2]/div[3]/div/div[2]/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cbdeb68a-3b40-4568-bacc-03a8cf43326f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header__history--link</value>
+      <webElementGuid>e000ce09-ecb2-40a1-8d4b-2373e43b8ce8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>a49671d2-9cf9-4c91-9e92-ba7726b10d91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quần short nam ORENO tây âu vải chống nhăn chống xù Quần tây nam ngắn dáng ôm Hàn Quốc trẻ trung</value>
+      <webElementGuid>4ebd3de2-afbe-40a5-b082-f6cc628958cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/header[@class=&quot;header&quot;]/div[@class=&quot;grid wide&quot;]/div[@class=&quot;header__with--search&quot;]/div[@class=&quot;header__search--find&quot;]/div[@class=&quot;header__search--filler&quot;]/div[@class=&quot;header__history&quot;]/ul[@class=&quot;header__history-list&quot;]/li[@class=&quot;header__history-item&quot;]/a[@class=&quot;header__history--link&quot;]</value>
+      <webElementGuid>a2486eb7-2bfb-45a5-946f-6303088d0abe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/header/div/div[2]/div[3]/div/div[2]/ul/li/a</value>
+      <webElementGuid>952544be-482f-490a-93de-b982b758492a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Quần short nam ORENO tây âu vải chống nhăn chống xù Quần tây nam ngắn dáng ôm Hàn Quốc trẻ trung')]</value>
+      <webElementGuid>6d2daefe-5d06-4884-aaf0-a61af8214802</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lịch sử Tìm kiếm'])[1]/following::a[1]</value>
+      <webElementGuid>79a22fcf-bc67-4163-876a-ed15fffbe590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cơ hội việc làm'])[1]/following::a[2]</value>
+      <webElementGuid>ae054002-25b0-42f5-b607-91f28597b4a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần đùi nam, chất liệu vải đũi mềm mát, quần short ngắn kiểu dáng thể thao có dây rút'])[1]/preceding::a[1]</value>
+      <webElementGuid>052d6302-de29-4248-aa0e-39e6d91ed0f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần short nam ngắn họa tiết Dri Fit 100% chất dù si thoáng mát, ít nhăn'])[1]/preceding::a[2]</value>
+      <webElementGuid>35d7e884-7373-4fc7-b0b8-7f99b72e2703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Quần short nam ORENO tây âu vải chống nhăn chống xù Quần tây nam ngắn dáng ôm Hàn Quốc trẻ trung']/parent::*</value>
+      <webElementGuid>0278a8ec-ab05-44d4-af01-13f84f0eba68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[15]</value>
+      <webElementGuid>b17f5d0d-72cf-40f2-84ae-3fabf024e6b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/a</value>
+      <webElementGuid>463e0582-a6ab-4a54-97cc-f3bc7d194173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/' and (text() = 'Quần short nam ORENO tây âu vải chống nhăn chống xù Quần tây nam ngắn dáng ôm Hàn Quốc trẻ trung' or . = 'Quần short nam ORENO tây âu vải chống nhăn chống xù Quần tây nam ngắn dáng ôm Hàn Quốc trẻ trung')]</value>
+      <webElementGuid>37ce922e-1641-4d06-bcd4-f2f9ffe3665f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

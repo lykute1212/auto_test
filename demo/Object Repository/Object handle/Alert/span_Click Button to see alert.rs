@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Click Button to see alert</name>
+   <tag></tag>
+   <elementGuidId>432389ae-f02a-4e26-9e81-603d813c65dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='javascriptAlertsWrapper']/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.mr-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>797f0959-55c5-441e-ad34-00a97631a4c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mr-3</value>
+      <webElementGuid>50ec72ce-b10a-44f7-8716-b55e5d40ae63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click Button to see alert </value>
+      <webElementGuid>1b812f62-8209-4351-8371-46a81da440ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;javascriptAlertsWrapper&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/span[@class=&quot;mr-3&quot;]</value>
+      <webElementGuid>7fa6e604-7ffb-4d97-bba4-6cc8d1135544</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='javascriptAlertsWrapper']/div/div/span</value>
+      <webElementGuid>f99a4ba8-72f1-41c6-860e-f46abdcc4c0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Store API'])[1]/following::span[1]</value>
+      <webElementGuid>71c02d8f-9f7b-48e5-935d-6757c3d184cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::span[2]</value>
+      <webElementGuid>ffe2d200-85ff-4fe7-82ae-9035fa16be7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click me'])[1]/preceding::span[1]</value>
+      <webElementGuid>a9683df5-77fe-4074-8412-87a82673f01f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On button click, alert will appear after 5 seconds'])[1]/preceding::span[1]</value>
+      <webElementGuid>36170171-a874-4790-88d8-78bcfea43d3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Click Button to see alert']/parent::*</value>
+      <webElementGuid>1691ef2a-80f9-4900-ae0d-e3933cd041d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>8f34e35c-8b32-4d17-8439-a1dd98f946c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Click Button to see alert ' or . = 'Click Button to see alert ')]</value>
+      <webElementGuid>86babec5-eebd-409c-8f18-8e88c1563216</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

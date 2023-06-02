@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0fd1bb5-32e4-49c1-a6ec-e44c0a7cfd7f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff11afe6-b46c-4160-a1d5-3c3e975cb260</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d50ba5f-6b17-4c9a-8ea6-82f09757279b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d1d8023-bd66-437c-ba7b-e98e05d797ce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'qc12'</defaultValue>
+      <description></description>
+      <id>ff11afe6-b46c-4160-a1d5-3c3e975cb260</id>
+      <masked>false</masked>
+      <name>USENAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'a@gmail.com'</defaultValue>
+      <description></description>
+      <id>9d50ba5f-6b17-4c9a-8ea6-82f09757279b</id>
+      <masked>false</masked>
+      <name>EMAIL</name>
+   </variable>
+   <variable>
+      <defaultValue>'CSt51UwWECc='</defaultValue>
+      <description></description>
+      <id>3d1d8023-bd66-437c-ba7b-e98e05d797ce</id>
+      <masked>false</masked>
+      <name>PASS</name>
+   </variable>
+</TestCaseEntity>

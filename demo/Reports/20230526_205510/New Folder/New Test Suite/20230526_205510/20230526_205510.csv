@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 113.0.0.0,,,2023-05-26 20:55:21,2023-05-26 20:55:51,29.823s,PASSED
+,,,,,,,
+Test Cases/Test_Web/Login,Chrome 113.0.0.0,,,2023-05-26 20:55:21,2023-05-26 20:55:37,15.314s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 20:55:22,2023-05-26 20:55:24,2.650s,PASSED
+customMethod_Store.Login_Store.loginStore(),Chrome 113.0.0.0,,,2023-05-26 20:55:24,2023-05-26 20:55:37,12.256s,PASSED
+,,,,,,,
+Test Cases/Test_Web/Search,Chrome 113.0.0.0,,,2023-05-26 20:55:37,2023-05-26 20:55:44,7.131s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 20:55:37,2023-05-26 20:55:38,1.339s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 113.0.0.0,,,2023-05-26 20:55:38,2023-05-26 20:55:40,1.984s,PASSED
+"setText(findTestObject(""Object Repository/Object_Store/Search_Store/input_C hi vic lm_header__search-text""), ""quần"")",Chrome 113.0.0.0,,,2023-05-26 20:55:40,2023-05-26 20:55:42,1.576s,PASSED
+"click(findTestObject(""Object Repository/Object_Store/Search_Store/a_Qun short nam ORENO ty u vi chng nhn chng_9dc427""))",Chrome 113.0.0.0,,,2023-05-26 20:55:42,2023-05-26 20:55:43,0.614s,PASSED
+"click(findTestObject(""Object Repository/Object_Store/Search_Store/button_Qun short nam ngn ha tit Dri Fit 100_ca07b2""))",Chrome 113.0.0.0,,,2023-05-26 20:55:43,2023-05-26 20:55:43,0.501s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 20:55:43,2023-05-26 20:55:44,0.703s,PASSED
+,,,,,,,
+Test Cases/Test_Web/Sign,Chrome 113.0.0.0,,,2023-05-26 20:55:44,2023-05-26 20:55:51,7.017s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-26 20:55:44,2023-05-26 20:55:45,1.290s,PASSED
+"navigateToUrl(""http://localhost:3000/account/register"")",Chrome 113.0.0.0,,,2023-05-26 20:55:45,2023-05-26 20:55:47,1.548s,PASSED
+"setText(findTestObject(""Object Repository/Object_Store/Sign_Store/input_Tn_name""), ""Ten12"")",Chrome 113.0.0.0,,,2023-05-26 20:55:47,2023-05-26 20:55:48,1.529s,PASSED
+"setText(findTestObject(""Object Repository/Object_Store/Sign_Store/input_Email_email""), ""ten@gmail.com"")",Chrome 113.0.0.0,,,2023-05-26 20:55:48,2023-05-26 20:55:49,0.745s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Object_Store/Sign_Store/input_Mt khu_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 113.0.0.0,,,2023-05-26 20:55:49,2023-05-26 20:55:50,0.478s,PASSED
+"click(findTestObject(""Object Repository/Object_Store/Sign_Store/button_ng k""))",Chrome 113.0.0.0,,,2023-05-26 20:55:50,2023-05-26 20:55:50,0.408s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-26 20:55:50,2023-05-26 20:55:51,0.663s,PASSED

@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "ACD74BC1BB87FB0CD833B64AA806DBD7",
+  "keywordClasses": [
+    {
+      "name": "loginCustomkeyword.LoginFunction",
+      "keywordMethods": [
+        {
+          "name": "loginWithTestData",
+          "parameters": [
+            {
+              "name": "testDataPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
