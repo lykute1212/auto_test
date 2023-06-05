@@ -48,8 +48,8 @@ public class Addtocart {
 
 			if(item == text) { //text (là tên sản phẩm trước khi thêm/xóa vào giỏ hàng) so sánh tuyệt đối
 				System.out.println("name trong giỏ hàng: " +item)
-				String sum = driver.findElement("//body/div[@id='root']/div[@class='app__container']/div[@class='grid wide']/div[@class='row sm-gutter app__content']/div[@class='my--card']/div[@class='col l-8']/div[@class='cart--wrap--info']/div[2]//input[@type = 'text']").getText()
-				System.out.println("so luong: " +sum)
+				//				String sum = driver.findElement("//body/div[@id='root']/div[@class='app__container']/div[@class='grid wide']/div[@class='row sm-gutter app__content']/div[@class='my--card']/div[@class='col l-8']/div[@class='cart--wrap--info']/div[2]//input[@type = 'text']").getText()
+				//				System.out.println("so luong: " +sum)
 				return true
 			}
 		}
