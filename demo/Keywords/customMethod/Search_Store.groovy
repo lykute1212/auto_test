@@ -22,25 +22,26 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.By.ByXPath
+import org.testng.Assert
 
 import internal.GlobalVariable
 
 public class Search_Store {
 	@Keyword
 	def searchProduct() {
-		WebDriver driver = DriverFactory.getWebDriver()
-		List<WebDriver>lisItem = driver.findElements(By.xpath("//(//a[contains(text(),'Quần')])"))
+		WebDriver driver
+		driver = DriverFactory.getWebDriver()
 
-		listItem.size()
+		List<WebElement> listItem = driver.findElements(By.xpath("//div[@class='product--control']//div[@class='row']/div"))
 
 		System.out.println(listItem.size())
-		System.out.println(listItem)
+		
+		for(int i = 1; i <= listItem.size(); i++) {
+			String item = driver.findElement(By.xpath("//div[@class='product--control']//div[@class='row']/div["+i+"]")).getText()
+			System.out.println(item)
 
-		for(int i=0; i<listItem.size(); i++)
-			String textTittle = driver.findElement(By.xpath("////div[@class='header__search--find']//li[+i+]")).getText()
-
-		System.out.println(textTittle)
-
-		//div[@class='header__search--find']//li[1]
+			Assert.assertTrue(item.contains("Quần"), "gia tri tra ve sau khi search sai")
+		}
 	}
 }

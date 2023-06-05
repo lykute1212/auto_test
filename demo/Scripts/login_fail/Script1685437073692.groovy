@@ -21,15 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:3000/account/login')
 
-WebUI.setText(findTestObject('New Folder/Page_Fashion Store/input_Email_email'), 'tester@gmail.com')
+WebUI.setText(findTestObject('Page_store_thinghiem/input_Email_email'), GlobalVariable.EMAIL_FAIL)
 
-WebUI.setEncryptedText(findTestObject('New Folder/Page_Fashion Store/input_Mt khu_password'), 'nwr9I1qT+J0GbQ++JlYjHw==')
+WebUI.setText(findTestObject('Page_store_thinghiem/input_Mt khu_password'), GlobalVariable.PASS_FAIL)
 
-WebUI.click(findTestObject('New Folder/Page_Fashion Store/button_ng nhp'))
+WebUI.click(findTestObject('Page_store_thinghiem/button_ng nhp'))
 
 WebUI.verifyTextPresent('Đăng nhập thành công!', false)
-
-WebUI.verifyElementText(findTestObject('New Folder/Page_Fashion Store/a_Thng tin ti khon'), 'tester')
 
 WebUI.closeBrowser()
 

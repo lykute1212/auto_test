@@ -12,42 +12,50 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>588a40c9-2567-4a84-9e51-e60fd9691731</testSuiteGuid>
    <testCaseLink>
-      <guid>f78c055e-37a5-47bb-84cf-2549ff388e9b</guid>
+      <guid>85490ba2-be97-4d1e-bafd-4aa884e77c02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test_Web/Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>412bda1f-71e1-4558-be20-aa677d4d920a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test_Web/Search</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>61674b24-74e3-4b04-aaf0-4be882fa3f64</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test_Web/Sign</testCaseId>
+      <testCaseId>Test Cases/Test_Web/Login_success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c4050c00-fd36-47f6-9603-a5de08ba3151</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ff11afe6-b46c-4160-a1d5-3c3e975cb260</variableId>
+         <variableId>4312e1da-91c2-492c-82b4-5f93b101bf9c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9d50ba5f-6b17-4c9a-8ea6-82f09757279b</variableId>
+         <variableId>8cce2d00-59f9-4c97-ac8a-e8a3a84f088a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3b440c1-2d05-4a16-9379-7a45f45aa5f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test_Web/Login_fail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be0fadf8-fb63-462e-ad2d-937a5267e935</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3d1d8023-bd66-437c-ba7b-e98e05d797ce</variableId>
+         <variableId>22e74993-3660-4dd5-8530-d6fde80250ee</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

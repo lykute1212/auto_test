@@ -3,16 +3,10 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import java.lang.String
 
 
-
-def static "customMethod.Login_Store.loginStore"(
-    	String email	
-     , 	String pass	) {
-    (new customMethod.Login_Store()).loginStore(
-        	email
-         , 	pass)
+def static "customMethod.Login.login_fail"() {
+    (new customMethod.Login()).login_fail()
 }
 
 
@@ -21,12 +15,26 @@ def static "customMethod.Search_Store.searchProduct"() {
 }
 
 
-def static "customMethod.Sign_Store.Sign_in"(
-    	String username	
-     , 	String password	
-     , 	String email	) {
-    (new customMethod.Sign_Store()).Sign_in(
-        	username
-         , 	password
-         , 	email)
+def static "customMethod.Payment.payment"() {
+    (new customMethod.Payment()).payment()
+}
+
+
+def static "customMethod.Addtocart.cart"() {
+    (new customMethod.Addtocart()).cart()
+}
+
+
+def static "customMethod.Addtocart.addToCart"() {
+    (new customMethod.Addtocart()).addToCart()
+}
+
+
+def static "customMethod.Addtocart.removeToCard"() {
+    (new customMethod.Addtocart()).removeToCard()
+}
+
+
+def static "customMethod.Signin.sign_fail"() {
+    (new customMethod.Signin()).sign_fail()
 }

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/header/div/div[2]/div[3]/button</value>
+         <value>//button[contains(@class,'btn primary-btn header__search--finding')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>53d39e5a-ed43-4445-84f6-d4471d5322e0</webElementGuid>
+      <webElementGuid>fc980767-4f8a-40bc-b244-fcf384af0441</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn primary-btn header__search--finding</value>
-      <webElementGuid>6e95eb7e-d739-4660-acc4-b0b4293d92a0</webElementGuid>
+      <webElementGuid>79149351-41e0-4b37-9cfd-6a41acfe1df6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/header[@class=&quot;header&quot;]/div[@class=&quot;grid wide&quot;]/div[@class=&quot;header__with--search&quot;]/div[@class=&quot;header__search--find&quot;]/button[@class=&quot;btn primary-btn header__search--finding&quot;]</value>
-      <webElementGuid>fbc75b73-4b6b-40f8-82eb-05f5a2f5786e</webElementGuid>
+      <webElementGuid>479ff2a3-a611-4327-9bad-2739111eb3eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/header/div/div[2]/div[3]/button</value>
-      <webElementGuid>0ab581d1-56a7-457b-a81a-148718661bb3</webElementGuid>
+      <webElementGuid>bd7794e5-dffa-4f3d-a83c-6b426af47a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần short nam ngắn họa tiết Dri Fit 100% chất dù si thoáng mát, ít nhăn'])[1]/following::button[1]</value>
-      <webElementGuid>0e35a964-06dc-43c8-b569-35a19c82c86c</webElementGuid>
+      <webElementGuid>5dac0a42-a16f-4ce7-91a5-9dc7379370d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần đùi nam, chất liệu vải đũi mềm mát, quần short ngắn kiểu dáng thể thao có dây rút'])[1]/following::button[1]</value>
-      <webElementGuid>e3381945-c38a-48f6-8f95-300df8981222</webElementGuid>
+      <webElementGuid>3d68df27-148a-416d-b9e8-d483bd38c777</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Các Sản Phẩm Đã Thêm'])[1]/preceding::button[1]</value>
-      <webElementGuid>41065d85-28c0-4a33-a6ac-033a3b5590a4</webElementGuid>
+      <webElementGuid>32f374e2-fe6b-4db2-b350-dba9bfad5d7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh Mục'])[1]/preceding::button[1]</value>
-      <webElementGuid>8bfbdf4d-86d8-4980-b38e-61365343589a</webElementGuid>
+      <webElementGuid>53592eac-f59b-4b85-8ad5-81c2080cc1e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>41461354-d625-4a98-b694-23ee28989699</webElementGuid>
+      <webElementGuid>377242bc-ee60-4b34-81ac-cf51b42b6c38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

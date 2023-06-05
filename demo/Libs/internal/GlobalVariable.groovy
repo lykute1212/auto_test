@@ -22,6 +22,16 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object EMAIL_FAIL
+     
+    /**
+     * <p></p>
+     */
+    public static Object PASS_FAIL
+     
+    /**
+     * <p></p>
+     */
     public static Object USENAME
      
 
@@ -33,6 +43,8 @@ public class GlobalVariable {
     
             PASSWORD = selectedVariables['PASSWORD']
             EMAIL = selectedVariables['EMAIL']
+            EMAIL_FAIL = selectedVariables['EMAIL_FAIL']
+            PASS_FAIL = selectedVariables['PASS_FAIL']
             USENAME = selectedVariables['USENAME']
             
         } catch (Exception e) {

@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-CustomKeywords.'customMethod.Login_Store.loginStore'(GlobalVariable.EMAIL, GlobalVariable.PASSWORD)
+WebUI.navigateToUrl('http://localhost:3000/')
 
-WebUI.setText(findTestObject('Object Repository/Object_Store/Search_Store/input_search'), 'quần')
+WebUI.click(findTestObject('Object_Store/Search_Store/input_search'))
 
-WebUI.click(findTestObject('Object Repository/Object_Store/Search_Store/a_href'))
+WebUI.setText(findTestObject('Object_Store/Search_Store/New Test Object'), 'Quần')
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object_Store/Search_Store/btn_search'))
 
 CustomKeywords.'customMethod.Search_Store.searchProduct'()
 

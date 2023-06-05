@@ -14,4 +14,14 @@
       <initValue>'lynguyen62471105@gmail.com'</initValue>
       <name>EMAIL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'lylynguyen62471105@gmail.com'</initValue>
+      <name>EMAIL_FAIL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'RigbBhfdqOBDK95asqKeHw=='</initValue>
+      <name>PASS_FAIL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
