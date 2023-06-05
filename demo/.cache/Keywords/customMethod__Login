@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "4050A852357913AEA9490EAD28ABFAD6",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Login",
+      "keywordMethods": [
+        {
+          "name": "login_fail",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "AC3F58BA44DFA4B9F7F927A2C438C69E",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Sign_fail",
+      "keywordMethods": [
+        {
+          "name": "sign_fail",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

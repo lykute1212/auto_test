@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CA96A49660B54D5A5A6F6A35ABB1206D",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Sign_in",
+      "keywordMethods": [
+        {
+          "name": "sign_fail",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

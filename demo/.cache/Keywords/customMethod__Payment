@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "4BD096978657FC976B5E80C43D7DBB7A",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Payment",
+      "keywordMethods": [
+        {
+          "name": "payment",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

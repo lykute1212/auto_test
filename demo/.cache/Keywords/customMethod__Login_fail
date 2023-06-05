@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "2F851ED887BCC92232CA28C0C8878166",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Login_fail",
+      "keywordMethods": [
+        {
+          "name": "login_fail",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_STORE,Chrome 113.0.0.0,,,2023-06-03 14:26:19,2023-06-03 14:26:30,10.830s,FAILED
+,,,,,,,
+Test Cases/Test_Web/Login,Chrome 113.0.0.0,,,2023-06-03 14:26:20,2023-06-03 14:26:26,6.193s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-03 14:26:20,2023-06-03 14:26:23,3.091s,PASSED
+"customMethod.Login_Store.loginStore(EMAIL, PASSWORD)",Chrome 113.0.0.0,,,2023-06-03 14:26:23,2023-06-03 14:26:26,2.546s,FAILED
+,,,,,,,
+Test Cases/Test_Web/Login_fail,Chrome 113.0.0.0,,,2023-06-03 14:26:26,2023-06-03 14:26:30,4.256s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-03 14:26:27,2023-06-03 14:26:29,1.958s,PASSED
+"navigateToUrl(""http://localhost:3000/account/login"")",Chrome 113.0.0.0,,,2023-06-03 14:26:29,2023-06-03 14:26:30,1.415s,PASSED
+"setText(findTestObject(""Object Repository/Object_Store/Login_Store/input_Email""), EMAIL)",Chrome 113.0.0.0,,,2023-06-03 14:26:30,2023-06-03 14:26:30,0.195s,FAILED

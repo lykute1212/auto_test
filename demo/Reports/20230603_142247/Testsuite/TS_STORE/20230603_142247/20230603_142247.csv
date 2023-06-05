@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_STORE,Chrome 113.0.0.0,,,2023-06-03 14:22:58,2023-06-03 14:23:13,14.549s,FAILED
+,,,,,,,
+Test Cases/Test_Web/Login,Chrome 113.0.0.0,,,2023-06-03 14:22:58,2023-06-03 14:23:05,6.155s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-03 14:22:59,2023-06-03 14:23:02,3.141s,PASSED
+"customMethod.Login_Store.loginStore(EMAIL, PASSWORD)",Chrome 113.0.0.0,,,2023-06-03 14:23:02,2023-06-03 14:23:05,2.493s,FAILED
+,,,,,,,
+Test Cases/Test_Web/Login_fail,Chrome 113.0.0.0,,,2023-06-03 14:23:05,2023-06-03 14:23:13,7.986s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-03 14:23:05,2023-06-03 14:23:07,2.011s,PASSED
+"navigateToUrl(""http://localhost:3000/account/login"")",Chrome 113.0.0.0,,,2023-06-03 14:23:07,2023-06-03 14:23:09,1.829s,PASSED
+"setText(findTestObject(""Object Repository/Object_Store/Login_Store/input_Email""), EMAIL)",Chrome 113.0.0.0,,,2023-06-03 14:23:09,2023-06-03 14:23:10,1.034s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Object_Store/Login_Store/input_Pass""), PASS_FAIL)",Chrome 113.0.0.0,,,2023-06-03 14:23:10,2023-06-03 14:23:11,0.470s,PASSED
+"click(findTestObject(""Object Repository/Object_Store/Login_Store/btn_Login""))",Chrome 113.0.0.0,,,2023-06-03 14:23:11,2023-06-03 14:23:11,0.416s,PASSED
+"verifyElementText(findTestObject(""Object_Store/Login_Store/toast_login_fail""), ""Đăng nhập thất bại!"")",Chrome 113.0.0.0,,,2023-06-03 14:23:11,2023-06-03 14:23:12,0.712s,PASSED
+"verifyEqual(""Đăng nhập thất bại!"", ""Đăng nhập thất bại!"")",Chrome 113.0.0.0,,,2023-06-03 14:23:12,2023-06-03 14:23:12,0.037s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-06-03 14:23:12,2023-06-03 14:23:13,0.716s,PASSED

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_home__product-item-img</name>
+   <tag></tag>
+   <elementGuidId>166279d2-ec9c-4991-9f5c-24195c43add5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h4[contains(text(),'Váy trắng trễ vai ,đầm dự tiệc nữ phong cách tiểu ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a0a6bcc9-49a0-4a99-94b4-47594aa5ddcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>home__product--item-img</value>
+      <webElementGuid>d4f9ae44-332f-4bfa-a9a7-63f3e76a7807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container&quot;]/div[@class=&quot;grid wide&quot;]/div[@class=&quot;row sm-gutter app__content&quot;]/div[@class=&quot;col l-10 m-12 c-12&quot;]/div[@class=&quot;home__product&quot;]/div[@class=&quot;row sm-gutter&quot;]/div[@class=&quot;col l-2-4 m-4 c-6&quot;]/a[@class=&quot;home__product--item&quot;]/div[@class=&quot;home__product--item-img&quot;]</value>
+      <webElementGuid>e3c8e784-320c-4f46-b267-1178d2064919</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div[2]/div[2]/div/div[8]/a/div</value>
+      <webElementGuid>96fb87e0-2781-4a08-aa7b-a98ff27ab30f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/a/div</value>
+      <webElementGuid>11f2c99b-92c6-42dd-9adc-f1750523e877</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

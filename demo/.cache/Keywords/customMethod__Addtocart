@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "ACF13BC6FEB6959C51E897C2CA54EAED",
+  "keywordClasses": [
+    {
+      "name": "customMethod.Addtocart",
+      "keywordMethods": [
+        {
+          "name": "cart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addToCart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "removeToCard",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

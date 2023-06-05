@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_STORE,Chrome 113.0.0.0,,,2023-06-03 14:09:57,2023-06-03 14:10:08,11.221s,FAILED
+,,,,,,,
+Test Cases/Test_Web/Login,Chrome 113.0.0.0,,,2023-06-03 14:09:57,2023-06-03 14:10:03,6.174s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-03 14:09:57,2023-06-03 14:10:01,3.202s,PASSED
+"customMethod.Login_Store.loginStore(EMAIL, PASSWORD)",Chrome 113.0.0.0,,,2023-06-03 14:10:01,2023-06-03 14:10:03,2.458s,FAILED
+,,,,,,,
+Test Cases/Test_Web/Login_fail,Chrome 113.0.0.0,,,2023-06-03 14:10:03,2023-06-03 14:10:08,4.636s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-06-03 14:10:04,2023-06-03 14:10:06,2.056s,PASSED
+"customMethod.Login_Store.loginStore(EMAIL_FAIL, PASSWORD)",Chrome 113.0.0.0,,,2023-06-03 14:10:06,2023-06-03 14:10:08,2.110s,FAILED
