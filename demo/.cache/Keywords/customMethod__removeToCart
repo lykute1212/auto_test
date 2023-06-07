@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "9700FDC75A6C35DEDB95D722DB084018",
+  "keywordClasses": [
+    {
+      "name": "customMethod.removeToCard",
+      "keywordMethods": [
+        {
+          "name": "cart",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
