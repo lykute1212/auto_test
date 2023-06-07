@@ -1,12 +1,39 @@
 {
-  "keywordFileContentHash": "4050A852357913AEA9490EAD28ABFAD6",
+  "keywordFileContentHash": "56FD6EE3DDCC28B39A3EB46C0023B644",
   "keywordClasses": [
     {
       "name": "customMethod.Login",
       "keywordMethods": [
         {
-          "name": "login_fail",
-          "parameters": [],
+          "name": "login_success",
+          "parameters": [
+            {
+              "name": "email",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
           "javadoc": ""
         }
       ]

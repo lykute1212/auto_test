@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:3000/')
+CustomKeywords.'customMethod.Login_success.login_success'(GlobalVariable.EMAIL, GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('Object_Store/Search_Store/input_search'))
 
-WebUI.setText(findTestObject('Object_Store/Search_Store/New Test Object'), 'Quần')
+WebUI.setText(findTestObject('Object_Store/Search_Store/the_input'), 'Quần')
 
 WebUI.click(findTestObject('Object_Store/Search_Store/btn_search'))
 

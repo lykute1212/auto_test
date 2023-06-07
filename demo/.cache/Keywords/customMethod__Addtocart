@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "26591CCAB67B212B732D9F295F32EAE0",
+  "keywordFileContentHash": "EE398B277A8430DE69AE9A4AFB968097",
   "keywordClasses": [
     {
       "name": "customMethod.Addtocart",
@@ -11,11 +11,6 @@
         },
         {
           "name": "addToCart",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "removeToCard",
           "parameters": [],
           "javadoc": ""
         }

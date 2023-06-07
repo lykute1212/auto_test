@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-CustomKeywords.'customMethod.Login.login_fail'()
+CustomKeywords.'customMethod.Login_success.login_success'(GlobalVariable.EMAIL, GlobalVariable.PASSWORD)
 
 WebUI.closeBrowser()
 

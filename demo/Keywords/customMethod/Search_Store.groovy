@@ -33,15 +33,17 @@ public class Search_Store {
 		WebDriver driver
 		driver = DriverFactory.getWebDriver()
 
-		List<WebElement> listItem = driver.findElements(By.xpath("//div[@class='product--control']//div[@class='row']/div"))
+		List<WebElement> listItem = driver.findElements(By.xpath("//div[@class='product--control']//div[@class='row']/div"))// tất cả element lưu vào list
 
+		listItem.size()// trả về số item của list
 		System.out.println(listItem.size())
-		
-		for(int i = 1; i <= listItem.size(); i++) {
-			String item = driver.findElement(By.xpath("//div[@class='product--control']//div[@class='row']/div["+i+"]")).getText()
-			System.out.println(item)
+		System.out.println(listItem)
 
-			Assert.assertTrue(item.contains("Quần"), "gia tri tra ve sau khi search sai")
+		for(int i = 1; i <= listItem.size(); i++) {
+			String textitem = driver.findElement(By.xpath("//div[@class='product--control']//div[@class='row']/div["+i+"]")).getText()// lấy giá trị text của Element tương ứng
+			System.out.println(textitem)
+
+			Assert.assertTrue(textitem.contains("Quần"))
 		}
 	}
 }
